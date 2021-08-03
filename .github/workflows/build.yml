@@ -37,7 +37,7 @@ jobs:
         run: mvn -B test
 
   #Sonar's Job
-  build:
+  sonar:
     name: Build
     runs-on: ubuntu-latest
     steps:
