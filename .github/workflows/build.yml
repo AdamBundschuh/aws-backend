@@ -127,5 +127,5 @@ jobs:
           application_name: aws-backend
           environment_name: Awsbackend-env
           version_label: ${{github.run_number}}
-          region: us-east-1
+          region: us-east-2
           deployment_package: data-0.0.1-SNAPSHOT.jar
