@@ -8,7 +8,7 @@ public class DataController {
 
     @GetMapping("/")
     public String healthCheck() {
-            return "HEALTH CHECK OK!!!!!";
+            return "THIS IS A BACKEND TEST!!!!";
     }
 
     @GetMapping("/version")
